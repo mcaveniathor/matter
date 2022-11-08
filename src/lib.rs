@@ -1,4 +1,5 @@
 #[macro_use] extern crate bitfield;
+/// Module relating to the message frame format
 pub mod message;
 
 pub fn add(left: usize, right: usize) -> usize {
